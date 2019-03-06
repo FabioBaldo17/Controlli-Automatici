@@ -11,5 +11,8 @@ A_inv=inv(A)
 eigs=eig(A)
 eigs_roots=roots(poly(A))
 
+%Questa funzione restituisce gli autovalori e autovettori
+[V,D]=eig(A)
+
 
 
